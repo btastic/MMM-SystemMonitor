@@ -1,0 +1,32 @@
+/*
+ *
+ * MMM-SystemMonitor
+ *
+ * 
+ * MIT Licensed.
+ *
+ * Custom here your css module
+ *
+ */
+.MMM-SystemMonitor .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.MMM-SystemMonitor .column {
+    min-width: 0;
+    flex-basis: 60%;
+}
+
+.MMM-SystemMonitor .column-text {
+    min-width: 0;
+    flex-basis: 40%;
+    white-space: nowrap;
+}
+
+.MMM-SystemMonitor .container {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,33 @@
+{
+  "name": "MMM-SystemMonitor",
+  "version": "1.0.0",
+  "description": "A SystemMonitor plugin for MagicMirror².",
+  "main": "MMM-SystemMonitor.js",
+  "author": "Ben Konsemüller",
+  "license": "MIT",
+  "repository": {
+		"type": "git",
+		"url": "git+https://github.com/btastic/MMM-SystemMonitor"
+	},
+  "keywords": [
+		"magic mirror",
+		"smart mirror",
+		"SystemMonitor",
+		"module"
+	],
+	"contributors": "https://github.com/btastic/MMM-SystemMonitor/graphs/contributors",
+  "bugs": {
+		"url": "https://github.com/btastic/MMM-SystemMonitor/issues"
+	},
+	"homepage": "https://github.com/btastic/MMM-SystemMonitor#readme",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-eslint": "latest",
+    "grunt-jsonlint": "latest",
+    "grunt-markdownlint": "^1.0.13",
+    "grunt-stylelint": "latest",
+    "grunt-yamllint": "latest",
+    "stylelint-config-standard": "latest",
+    "time-grunt": "latest"
+  }
+}
